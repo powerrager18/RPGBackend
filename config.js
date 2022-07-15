@@ -11,7 +11,7 @@ const pool = new Pool({
   // descomentar para fazer deploy no heroku
   , ssl: {
     rejectUnauthorized: false,
- }
+  }
 })
 
 module.exports = {pool}
